@@ -45,7 +45,12 @@ fi
 # Aliases
 #
 
+<<<<<<< HEAD
 if ! zstyle -t ':prezto:module:tmux:alias' skip; then
   alias tmuxa="tmux $_tmux_iterm_integration new-session -A"
   alias tmuxl='tmux list-sessions'
 fi
+=======
+alias tmuxa="tmux $_tmux_iterm_integration new-session -A -s"
+alias tmuxl='tmux list-sessions'
+>>>>>>> 090f3e6 (switch upstream to my fork)
