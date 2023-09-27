@@ -41,9 +41,7 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'autosuggestions' \
-  'homebrew' \
   'git' \
-  'osx' \
   'fasd' \
   'python' \
   'syntax-highlighting' \
