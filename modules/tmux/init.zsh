@@ -46,6 +46,6 @@ fi
 #
 
 if ! zstyle -t ':prezto:module:tmux:alias' skip; then
-  alias tmuxa="tmux $_tmux_iterm_integration new-session -A -s"
-  alias tmuxl='tmux list-sessions'
+  alias ta="tmux $_tmux_iterm_integration new-session -A -s"
+  alias tl='tmux list-sessions'
 fi
